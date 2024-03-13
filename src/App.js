@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import "./App.css";
 import "@aws-amplify/ui-react/styles.css";
 import { generateClient } from 'aws-amplify/api'; // version 6
 import { uploadData } from 'aws-amplify/storage'; // version 6
-//import { downloadData } from 'aws-amplify/storage'; // version 6
+// import { downloadData } from 'aws-amplify/storage'; // version 6
 import { getUrl } from 'aws-amplify/storage'; //version 6
 import { remove } from 'aws-amplify/storage';
-// import { Storage } from 'aws-amplify'; //version 5
+// import { API, Storage } from 'aws-amplify'; //version 5
 import {
   Button,
   Flex,
