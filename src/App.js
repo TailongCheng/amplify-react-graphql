@@ -40,7 +40,7 @@ const App = ({ signOut }) => {
       notesFromAPI.map(async (note) => {
         if (note.image) {
           const url = await getUrl(note.name);
-          note.image = url;
+          note.image = url.url;
         }
         return note;
       })
